@@ -1,0 +1,42 @@
+{
+    "date": "2025-09-28",
+    "time": "19:31:22.363359",
+    "cours": [
+        {
+            "title": "PHYSIQUE-CHIMIE",
+            "room": "C 201 Phys Chimie cours",
+            "info": null,
+            "start_hour": "08:00:00",
+            "end_hour": "09:50:00",
+            "group": "[1PH-CH2]",
+            "teacher": "LEMEE C."
+        },
+        {
+            "title": "MATHEMATIQUES",
+            "room": "C 403 HG",
+            "info": null,
+            "start_hour": "10:05:00",
+            "end_hour": "11:55:00",
+            "group": "[1MATHS2]",
+            "teacher": "PERRY S."
+        },
+        {
+            "title": "Pas de cours",
+            "room": null,
+            "info": null,
+            "start_hour": "12:00:00",
+            "end_hour": "13:50:00",
+            "group": null,
+            "teacher": null
+        },
+        {
+            "title": "NUMERIQUE SC.INFORM.",
+            "room": "F 050 SIN",
+            "info": null,
+            "start_hour": "13:50:00",
+            "end_hour": "15:55:00",
+            "group": "[1NSINF2]",
+            "teacher": "GOUJON F."
+        }
+    ]
+}
