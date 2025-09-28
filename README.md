@@ -41,7 +41,11 @@ Quand la page GitHub du projet s'ouvre, GeckoDriver seras installé.
 
 ## Utilisation 
 
-Pour utiliser le programme, il faut le configurer ces information de connection en ouvrant `login_info.txt`, puis en mettant sur la première ligne le nom d'utilisateur, sur la deuxième ligne le mot de passe, et sur la troisième l'url de connection qui correspond à l'url de la page ci-dessous.
+> [!WARNING]
+> Section fausse depuis la dernière MAJ. Il faut que j'actualise se fichier, si vous voulez me motiver a le faire envoyer moi un mail !
+
+
+Pour utiliser le programme, il faut le configurer ces information de connection en créant `login_info.txt`, puis en mettant sur la première ligne le nom d'utilisateur, sur la deuxième ligne le mot de passe, et sur la troisième l'url de connection qui correspond à l'url de la page ci-dessous.
 
 ![image](https://github.com/user-attachments/assets/d35883c1-637e-4dd1-b1cd-1683dd4cb0a1)
 
@@ -55,22 +59,6 @@ ou
 python3 main.py
 ```
 
-Le programme afficeras des logs, puis le cours actuel et le prochain cour.
-Attention, si la connexion est mauvaise, le programme peut ne pas fonctionner.
-
-### Exemple de sortie
-
-```bash
-[2025-04-08 09:44:12] Open driver
-[2025-04-08 09:44:44] Driver opened
-[2025-04-08 09:44:45] Connection
-[2025-04-08 09:44:46] Éduconnect
-[2025-04-08 09:44:51] Bot log !
-[2025-04-08 09:44:53] Pronote
-[2025-04-08 09:45:02] Pronote load
-Cours : SC.NUMERIQ.TECHNOL. de 12h55 à 14h45. Fin dans 11 minutes
-Prochain cours : ALLEMAND LV2 de 15h00 à 15h55. Début dans 26 minutes
-```
 
 ## Explication du code
 
@@ -87,11 +75,7 @@ Se serais facilement adaptable au pour l'enregister dans un fichier de log.
 #### Définition des information de connection
 
 ```python
-log_info = open('login_info.txt', 'r').read().splitlines() # ouvre le fichier login_info.txt et le transforme en liste en séparant cheque retour à la ligne
-
-username = log_info[0] # Première ligne du fichier
-password  = log_info[1] # Deuxième ligne du fichier
-url = log_info[2] # Troisième ligne du fichier
+# Idem que le Warnig + haut
 ```
 
 #### Ouverture du driver 
