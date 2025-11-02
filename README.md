@@ -1,4 +1,4 @@
-# $\textsf {Verfif} \textsf{\color{#ba1ce6}{EDT}}$
+# $\textsf {Verif} \textsf{\color{#ba1ce6}{EDT}}$
 
 ## Sommaire
 
